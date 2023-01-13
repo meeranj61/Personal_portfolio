@@ -198,3 +198,7 @@ img {
     border-radius: 100px;
     font-size: 24px;
 }
+
+#about .shadow-effect{
+    min-height: 180px;
+}
