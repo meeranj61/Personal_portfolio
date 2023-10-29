@@ -200,5 +200,13 @@ img {
 }
 
 #about .shadow-effect{
-    min-height: 180px;
+    min-height: 220px;
+}
+
+.service{
+    min-height: 350px;
+}
+
+.card-custom-content{
+    min-height: 200px;
 }
