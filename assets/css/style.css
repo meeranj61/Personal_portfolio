@@ -210,3 +210,38 @@ img {
 .card-custom-content{
     min-height: 200px;
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25D366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect */
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .whatsapp-float {
+      bottom: 15px;  /* Slightly adjust bottom distance on mobile */
+      right: 15px;   /* Slightly adjust right distance on mobile */
+    }
+
+    .whatsapp-float img {
+      width: 45px;  /* Adjust icon size for mobile */
+      height: 45px;
+    }
+  }
